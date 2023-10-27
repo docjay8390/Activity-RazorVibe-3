@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0 auto;
+}
+
+@font-face {
+  /* primary font */
+  font-family: 'SF Pro Display Bold';
+  src: url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot');
+  src: url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.svg#SF Pro Display Bold')
+      format('svg');
+}
+
+@font-face {
+  /* secondary font */
+  font-family: 'SF Pro Display Regular';
+  src: url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot');
+  src: url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display Regular')
+      format('svg');
+}
+
+/* add code here */
+
+body {
+  text-align: center;
+  font-family: 'SF Pro Display Bold';
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 10%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  font-size: 80px; 
+  white-space: nowrap; 
+  color: white;
+}
+
+/* img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+} */
+
+ul {
+  display: flex;
+
+}
+
+.second-container {
+  margin-top: 5%;
+
+}
+
+.image-texts-images {
+  display: flex;
+  max-width: 500px;
+  min-width: 100%;
+}
+
+.hero-container {
+ display: inline-block;
+ align-items: center;
+
+}
+.love {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50%;
+  
+
+}
+
+.contains {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contains img {
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .image-container img {
+    width: 100%;
+  }
+}
+
+
+
+.btn1 {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 30px 90px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 60px 10px 0;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.btn2 {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 50px 80px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 60px 10px 0;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+}
+
+.img1 {
+  width: 90px;
+  height: 40px;
+}
+.img2 {
+  width: 90px;
+  height: 40px;
+}
+
+
+.image-btn-container {
+  position: relative;
+}
+
+.btn-container {
+  position: absolute;
+  top: 50%; 
+  left: 90%; 
+  transform: translate(-50%, -50%); 
+  white-space: nowrap; 
+  color: white;
+}
+
+
+.btn3 {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 40px 80px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px 0 0;
+  border-radius: 5px;
+  width: 170px;
+  height: 40px;
+
+}
+
+.btn4 {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 40px 80px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px 0 0;
+  border-radius: 5px;
+  width: 170px;
+  height: 40px;
+}
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+ 
+
+
